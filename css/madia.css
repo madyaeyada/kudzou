@@ -1,0 +1,87 @@
+@media (max-width:991px){
+.flex{flex-direction:column;}
+
+.main-left  {text-align: center;}
+.sec-header {flex-direction: row;}
+.sec-header ul {display: none;}
+.fa-bars{display: block !important;margin-top: 1rem;}
+.sec-header button{margin-top: 1rem;}
+/* .main-right  {position: relative;} */
+.main-right div:first-child {
+    position: absolute;
+    z-index: 3;
+    /* right: 5rem; */
+    top: 8%;
+  }
+  .main-right div:first-child {
+        left: 38rem;}
+  .main-right div:nth-child(3) { 
+      margin-top:0;       
+       /* left: 30rem;
+        top: 14rem;} */
+  }
+  .main-left {
+        
+        flex: 1 1 50%;
+        margin-top: 4rem;
+        z-index: 7;
+      }
+  .main-right div:nth-child(2) {left: 13rem;
+    width: 20rem;}
+        .main-right div:first-child {
+        /* left: 17rem; */
+      }
+  .main-right div:nth-child(3) {
+    
+    margin-top: 52%;
+    /* left: 12rem; */
+  }
+  .sizing1{right: 3rem;}
+  
+.item {
+    width: calc((100% - 2rem) / 2);
+}
+
+}
+/* ===============================
+ max-width:768px
+==================================*/
+  @media (max-width:768px){
+    section {
+    padding: 0 17%;}
+    .sizing1{width:18rem !important;}
+     /* ul li {margin-left: .7rem;}
+     footer li a {
+    font-size: .6rem;} */
+  }
+  /* ==================================
+  max-width:676px
+  ================================*/
+  @media (max-width:676px){
+    .main-right div:nth-child(3) {
+      position: absolute;
+      top: -38%;
+      right: 12rem;
+      width: 15rem;
+      z-index: 5;
+    }
+    .main-right div {
+      width: 8rem;
+    }
+    .main-right div:first-child {
+      left: 21rem;}
+      .main-right div:nth-child(2) {
+        left: 13rem;
+        width: 20rem;}
+        .main-right div:nth-child(3) {
+          margin-top: -5rem;
+          left: 17rem;
+        }
+      }
+      /* ==================================
+      max-width:676px
+      ================================*/
+      @media (max-width:564px){
+        .item h2, .item p { font-size: 0.1rem !important;}
+
+      }
